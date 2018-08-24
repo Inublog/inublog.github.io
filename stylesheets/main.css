@@ -4,8 +4,12 @@
 
 .mainfont {
   font-family: 'Abel', sans-serif;
-  margin-left: 80px;
+  margin-left: 30px;
   margin-top: 40px;
+  a {color:black;}      /* unvisited link */
+a:visited {color:black;}  /* visited link */
+a:hover {color:black;}  /* mouse over link */
+a:active {color:black;}  /* selected link */
 }
 
 img{
@@ -42,5 +46,10 @@ img{
   width: 375px;
   height: 375px;
   box-shadow: 10px 10px 5px grey;
+}
+
+.header {
+  text-align: center;
+  
 }
 
